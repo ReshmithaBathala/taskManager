@@ -1,0 +1,213 @@
+.category-slider {
+  display: flex;
+  overflow-x: auto;
+  padding: 20px;
+  gap: 30px;
+}
+
+.category-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 354px;
+  height: 668px;
+  padding: 20px 0px 20px 0px;
+  gap: 9px;
+  border-radius: 10px;
+  background-color: #2e2f2f;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  padding: 20px;
+  height: auto;
+}
+
+.category-heading {
+  display: flex;
+  align-items: center;
+}
+
+.category-dot {
+  width: 11px;
+  height: 11px;
+  margin-top: 3px;
+  margin-right: 6px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.task-category {
+  width: 90px;
+  height: 19px;
+  top: 20px;
+  left: 148px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.36px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.task-count {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.52px;
+  text-align: center;
+  color: #625f6d;
+  background-color: #e0e0e0;
+  width: 20px;
+  height: 20px;
+  left: 123px;
+  border-radius: 15px;
+  padding-top: 4px;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.line {
+  width: 90%;
+  border-width: 3px;
+}
+
+.task-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.task-card {
+  width: 314px;
+  height: auto;
+  border-radius: 16px;
+  background-color: #3f4041;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  padding: 10px;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.task-body {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.task-footer {
+  text-align: left;
+  font-size: 0.85rem;
+}
+
+.task-priority {
+  border-radius: 4px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: bold;
+  text-align: left;
+  text-align: center;
+  width: auto;
+  height: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.three-dots {
+  font-size: 16px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.task-title {
+  width: 210px;
+  height: 22px;
+  top: 125px;
+  left: 40px;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 21.78px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.task-description {
+  width: 274px;
+  height: 30px;
+  top: 153px;
+  left: 40px;
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.52px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.task-deadline {
+  width: 261px;
+  height: 16px;
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #aaaaaa;
+}
+
+.deadline-span {
+  font-family: "Poppins";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+}
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  background-color: #5030e5; /* Change as per your design */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 5px;
+  z-index: 1;
+}
+
+.dropdown-menu div {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.dropdown-menu div:hover {
+  background-color: #f1f1f1; /* Highlight on hover */
+}
+
+@media (max-width: 767px) {
+  .category-slider {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category-column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .task-card {
+    width: 90%;
+  }
+}

@@ -1,0 +1,39 @@
+.task-item {
+    background-color: #333;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    color: white;
+  }
+  
+  .task-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .task-priority {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  .task-priority.low {
+    background-color: #4caf50;
+  }
+  
+  .task-priority.medium {
+    background-color: #ff9800;
+  }
+  
+  .task-priority.high {
+    background-color: #f44336;
+  }
+  
+  .task-title {
+    font-size: 18px;
+  }
+  
+  .task-description {
+    font-size: 14px;
+  }
+  
