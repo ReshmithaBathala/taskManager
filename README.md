@@ -4,7 +4,7 @@
 Task manager
 ##  Setup And Run Instructions
 
-1. ```bash git clone[ https://github.com/Jyothisha426/taskManager](https://github.com/ReshmithaBathala/taskManager)```
+1. ```bash git clone https://github.com/ReshmithaBathala/taskManager```
 2. ```bash cd taskManager```
 3. ```bash npm install```
 4. ```bash npm start```
@@ -40,4 +40,4 @@ To deploy this project run
 ```
 
 Deployed Link: 
-[https://task-manager-three-liart.vercel.app/](https://task-manager-omega-ashy.vercel.app/)
+https://task-manager-omega-ashy.vercel.app/
